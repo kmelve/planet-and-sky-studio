@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "project": {
+    "name": "planet-and-sky"
+  },
+  "api": {
+    "projectId": "ruqt2tsd",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "webamp"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
